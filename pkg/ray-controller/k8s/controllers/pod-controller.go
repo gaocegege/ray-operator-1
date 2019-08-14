@@ -9,7 +9,7 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/cache"
 
-	rayclientset "github.com/ray-operator/pkg/ray-controller/k8s/client/clientset/versioned"
+	rayclientset "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/client/clientset/versioned"
 )
 
 const (

@@ -21,7 +21,7 @@ package externalversions
 import (
 	"fmt"
 
-	v1 "github.com/ray-operator/pkg/ray-controller/k8s/apis/ray.io/v1"
+	v1 "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/apis/ray.io/v1"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
 )

@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/ray-operator/pkg/ray-controller/k8s/client/clientset/versioned"
-	internalinterfaces "github.com/ray-operator/pkg/ray-controller/k8s/client/informers/externalversions/internalinterfaces"
-	rayio "github.com/ray-operator/pkg/ray-controller/k8s/client/informers/externalversions/ray.io"
+	versioned "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/client/clientset/versioned"
+	internalinterfaces "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/client/informers/externalversions/internalinterfaces"
+	rayio "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/client/informers/externalversions/ray.io"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

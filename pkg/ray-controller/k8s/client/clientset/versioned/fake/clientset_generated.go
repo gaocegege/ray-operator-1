@@ -19,9 +19,9 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/ray-operator/pkg/ray-controller/k8s/client/clientset/versioned"
-	rayv1 "github.com/ray-operator/pkg/ray-controller/k8s/client/clientset/versioned/typed/ray.io/v1"
-	fakerayv1 "github.com/ray-operator/pkg/ray-controller/k8s/client/clientset/versioned/typed/ray.io/v1/fake"
+	clientset "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/client/clientset/versioned"
+	rayv1 "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/client/clientset/versioned/typed/ray.io/v1"
+	fakerayv1 "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/client/clientset/versioned/typed/ray.io/v1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

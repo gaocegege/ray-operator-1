@@ -19,7 +19,7 @@ limitations under the License.
 package versioned
 
 import (
-	rayv1 "github.com/ray-operator/pkg/ray-controller/k8s/client/clientset/versioned/typed/ray.io/v1"
+	rayv1 "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/client/clientset/versioned/typed/ray.io/v1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

@@ -9,11 +9,11 @@ import (
 	"k8s.io/client-go/kubernetes/scheme"
 	"k8s.io/client-go/tools/cache"
 
-	rayv1 "github.com/ray-operator/pkg/ray-controller/k8s/apis/ray.io/v1"
-	rayclientset "github.com/ray-operator/pkg/ray-controller/k8s/client/clientset/versioned"
-	rayscheme "github.com/ray-operator/pkg/ray-controller/k8s/client/clientset/versioned/scheme"
-	rayinformers "github.com/ray-operator/pkg/ray-controller/k8s/client/informers/externalversions"
-	raylisters "github.com/ray-operator/pkg/ray-controller/k8s/client/listers/ray.io/v1"
+	rayv1 "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/apis/ray.io/v1"
+	rayclientset "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/client/clientset/versioned"
+	rayscheme "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/client/clientset/versioned/scheme"
+	rayinformers "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/client/informers/externalversions"
+	raylisters "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/client/listers/ray.io/v1"
 )
 
 func init() {

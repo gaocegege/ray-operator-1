@@ -19,12 +19,12 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/tools/clientcmd"
 
-	rayv1 "github.com/ray-operator/pkg/ray-controller/k8s/apis/ray.io/v1"
-	clientset "github.com/ray-operator/pkg/ray-controller/k8s/client/clientset/versioned"
-	rayinformers "github.com/ray-operator/pkg/ray-controller/k8s/client/informers/externalversions"
-	controllers "github.com/ray-operator/pkg/ray-controller/k8s/controllers"
-	"github.com/ray-operator/pkg/ray-controller/k8s/crd"
-	raycrd "github.com/ray-operator/pkg/ray-controller/k8s/crd/ray"
+	rayv1 "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/apis/ray.io/v1"
+	clientset "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/client/clientset/versioned"
+	rayinformers "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/client/informers/externalversions"
+	controllers "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/controllers"
+	"github.com/ray-project/ray-operator/pkg/ray-controller/k8s/crd"
+	raycrd "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/crd/ray"
 )
 
 type Daemon struct {

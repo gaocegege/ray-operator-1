@@ -19,7 +19,7 @@ limitations under the License.
 package fake
 
 import (
-	rayiov1 "github.com/ray-operator/pkg/ray-controller/k8s/apis/ray.io/v1"
+	rayiov1 "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/apis/ray.io/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	labels "k8s.io/apimachinery/pkg/labels"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

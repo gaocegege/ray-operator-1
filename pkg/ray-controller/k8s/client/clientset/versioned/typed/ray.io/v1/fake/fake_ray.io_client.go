@@ -19,7 +19,7 @@ limitations under the License.
 package fake
 
 import (
-	v1 "github.com/ray-operator/pkg/ray-controller/k8s/client/clientset/versioned/typed/ray.io/v1"
+	v1 "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/client/clientset/versioned/typed/ray.io/v1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

@@ -21,10 +21,10 @@ package v1
 import (
 	time "time"
 
-	rayiov1 "github.com/ray-operator/pkg/ray-controller/k8s/apis/ray.io/v1"
-	versioned "github.com/ray-operator/pkg/ray-controller/k8s/client/clientset/versioned"
-	internalinterfaces "github.com/ray-operator/pkg/ray-controller/k8s/client/informers/externalversions/internalinterfaces"
-	v1 "github.com/ray-operator/pkg/ray-controller/k8s/client/listers/ray.io/v1"
+	rayiov1 "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/apis/ray.io/v1"
+	versioned "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/client/clientset/versioned"
+	internalinterfaces "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/client/informers/externalversions/internalinterfaces"
+	v1 "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/client/listers/ray.io/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

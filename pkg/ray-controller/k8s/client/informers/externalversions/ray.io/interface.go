@@ -19,8 +19,8 @@ limitations under the License.
 package ray
 
 import (
-	internalinterfaces "github.com/ray-operator/pkg/ray-controller/k8s/client/informers/externalversions/internalinterfaces"
-	v1 "github.com/ray-operator/pkg/ray-controller/k8s/client/informers/externalversions/ray.io/v1"
+	internalinterfaces "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/client/informers/externalversions/internalinterfaces"
+	v1 "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/client/informers/externalversions/ray.io/v1"
 )
 
 // Interface provides access to each of this group's versions.

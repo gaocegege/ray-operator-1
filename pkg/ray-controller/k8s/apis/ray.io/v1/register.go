@@ -18,7 +18,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	k8sconst "github.com/ray-operator/pkg/ray-controller/k8s/apis/ray.io"
+	k8sconst "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/apis/ray.io"
 )
 
 // SchemeGroupVersion is group version used to register these objects

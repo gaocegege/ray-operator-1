@@ -19,7 +19,7 @@ limitations under the License.
 package v1
 
 import (
-	v1 "github.com/ray-operator/pkg/ray-controller/k8s/apis/ray.io/v1"
+	v1 "github.com/ray-project/ray-operator/pkg/ray-controller/k8s/apis/ray.io/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/client-go/tools/cache"
